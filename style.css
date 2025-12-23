@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: #000;
+  overflow: hidden;
+  border: 3px solid gold;
+}
+
+#jhumka {
+  position: absolute;
+  width: 45px;        /* Proper size */
+  height: auto;
+  pointer-events: none;
+}
+
+#paddle {
+  position: absolute;
+  bottom: 20px;
+  left: 250px;
+  width: 100px;
+  height: 12px;
+  background: gold;
+  border-radius: 6px;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+}
